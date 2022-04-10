@@ -17,7 +17,8 @@ body{
   position: relative;
   transform: translateY(180%);
   transition-property: all;
-  transition-duration: 0.5s
+  transition-duration: 0.5s;
+  overflow: hidden;
 }
 
 h1{
