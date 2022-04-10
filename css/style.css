@@ -1,0 +1,41 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #9C9796;
+}
+
+.container1{
+  position: relative;
+}
+
+.middle-line{
+  width: 100%;
+  background-color: #D5D5D5;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  position: relative;
+  transform: translateY(180%);
+  transition-property: all;
+  transition-duration: 0.5s
+}
+
+h1{
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.cover-square{
+  width: 100%;
+  position: absolute;
+  background-color: #D5D5D5;
+  height: 70px;
+  border-left: 2px solid black;
+  transition-property: all;
+  transition-duration: 2s;
+  bottom: 40px;
+}
+
+.middle-line:hover .cover-square{
+transform: translateX(100%);
+}
